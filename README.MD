@@ -1,16 +1,32 @@
-# SoundGear Pro — Landing Page Concept
+# 🎧 SoundGear Pro — Landing Page Concept
 
-### Tech Stack
-* HTML5 (Semantic Markup)
-* CSS3 (BEM, Grid, Flexbox, Glassmorphism)
-* Vanilla JavaScript
-* AOS.js (Animations)
+Современный одностраничный сайт для аудио-бренда премиум-класса. Проект выполнен в эстетике **Dark Tech** с акцентом на высокую производительность и минимализм.
 
-### Key Features
-* Fully Responsive Design
-* Custom Form Validation
-* Modal Success Pop-up
-* Modern Dark Tech Aesthetic
+---
 
-### Author
-Dmitriev Matvey (podmefom)
+## 🛠 Технологический стек
+
+Проект написан на чистом коде без использования тяжелых фреймворков, чтобы обеспечить максимальную скорость загрузки.
+
+* **HTML5:** Семантическая верстка для лучшего SEO.
+* **CSS3:** Использование методологии **BEM (БЭМ)**, Grid Layout, Flexbox.
+* **Дизайн:** Эффекты Glassmorphism, темная тема 2026.
+* **JavaScript:** Валидация форм и управление модальными окнами (Vanilla JS).
+* **Библиотеки:** [AOS.js](https://michalsnik.github.io/aos/) для плавной анимации при скролле.
+
+---
+
+## 🚀 Ключевые особенности
+
+* **Adaptive Design:** Полная отзывчивость — сайт идеально смотрится на смартфонах, планшетах и 4K мониторах.
+* **Interactive UI:** Кастомное модальное окно подтверждения отправки данных.
+* **Form Validation:** Встроенная проверка корректности ввода Email и имени перед отправкой.
+* **Performance:** Оптимизированные изображения и отсутствие лишних зависимостей.
+
+---
+
+## 📦 Как запустить проект локально
+
+1. Склонируйте репозиторий:
+   ```bash
+   git clone [https://github.com/podmefom/soundgear.git](https://github.com/podmefom/soundgear.git)
