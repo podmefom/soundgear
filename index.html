@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SoundGear Pro — Next Generation Audio Equipment for Creators.">
+    <meta property="og:title" content="SoundGear | Future of Sound">
+    <meta property="og:description" content="Experience studio-grade acoustics in a minimalist form factor.">
+    <meta property="og:image" content="img/gallery-1.jpg">
+    <title>SoundGear | Professional Audio Experience</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav container">
+            <div class="logo">SOUND<span>GEAR</span></div>
+            <ul class="nav__list">
+                <li><a href="#hero" class="nav__link">Home</a></li>
+                <li><a href="#product" class="nav__link">Product</a></li>
+                <li><a href="#gallery" class="nav__link">Gallery</a></li>
+                <li><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero__blob"></div>
+            <div class="container hero__container" data-aos="zoom-out">
+                <h1 class="hero__title">The Future of <br><span>Pro Sound.</span></h1>
+                <p class="hero__subtitle">Experience studio-grade acoustics in a minimalist form factor. Engineered for creators.</p>
+                <div class="hero__actions">
+                    <a href="#product" class="btn btn--primary">Explore Gear</a>
+                </div>
+            </div>
+            <div class="hero__scroll">
+                <div class="mouse"></div>
+            </div>
+        </section>
+
+        <section id="product" class="features container">
+            <div class="feature-card" data-aos="fade-up">
+                <h3>Acoustic Precision</h3>
+                <p>Pure, uncolored sound reproduction for masters and creators.</p>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                <h3>Wireless Mastery</h3>
+                <p>Lossless 24-bit audio streaming with zero latency.</p>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                <h3>Dark Aesthetic</h3>
+                <p>Engineered with premium materials and matte finish.</p>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery container">
+            <h2 class="section-title">Design in Detail</h2>
+            <div class="gallery__grid">
+                <div class="gallery__item" data-aos="zoom-in">
+                    <img src="img/gallery-1.jpg" alt="Acoustic Detail">
+                </div>
+                <div class="gallery__item" data-aos="zoom-in">
+                    <img src="img/gallery-2.jpg" alt="Device Focus">
+                </div>
+                <div class="gallery__item" data-aos="zoom-in">
+                    <img src="img/gallery-3.jpg" alt="Waveforms">
+                </div>
+                <div class="gallery__item" data-aos="zoom-in">
+                    <img src="img/gallery-4.jpg" alt="Studio Setup">
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact container">
+            <div class="contact__wrapper" data-aos="fade-up">
+                <div class="contact__info">
+                    <h2>Stay in the <br><span>Loop.</span></h2>
+                    <p>Get notified about new releases and studio updates.</p>
+                </div>
+                <form id="contactForm" class="form">
+                    <div class="form__group">
+                        <input type="text" id="name" placeholder="NAME" required>
+                    </div>
+                    <div class="form__group">
+                        <input type="email" id="email" placeholder="EMAIL" required>
+                    </div>
+                    <div class="form__group">
+                        <textarea id="message" placeholder="MESSAGE"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary">Send Request</button>
+                    <div id="formStatus" class="form__status"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__grid">
+            <div class="footer__left">
+                <div class="logo">SOUND<span>GEAR</span></div>
+                <p class="footer__copy">© 2026 Crafted for speed</p>
+            </div>
+            <div class="footer__socials">
+                <a href="#" class="footer__link">Dribbble</a>
+                <a href="#" class="footer__link">Behance</a>
+                <a href="#" class="footer__link">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="modalSuccess" class="modal">
+        <div class="modal__content">
+            <div class="modal__icon">✓</div>
+            <h3 class="modal__title">Sent Successfully</h3>
+            <p class="modal__text">Your request has been received. Our team will contact you shortly.</p>
+            <button class="btn btn--primary modal__close">Close</button>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/validation.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
